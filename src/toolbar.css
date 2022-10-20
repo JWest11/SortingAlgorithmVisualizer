@@ -1,0 +1,59 @@
+
+button {
+    border: 1px grey solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.newArrayButton:hover {
+    background-color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+.startButton:hover {
+    background-color: rgb(93, 255, 141);
+    cursor: pointer;
+}
+.newArrayButton {
+    background-color: rgb(238, 238, 238);
+}
+.startButton {
+    background-color: rgb(132, 255, 163);
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+select {
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 2px;
+}
+select:hover {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}
+.toolbarInner {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    padding: 5px;
+}
+input {
+    width: 80px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+}
+.inputGroup {
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border: 1px solid rgb(177, 177, 177);
+}
+label:hover {
+    cursor: default;
+}
+.arrayLength {
+    color: grey;
+}
