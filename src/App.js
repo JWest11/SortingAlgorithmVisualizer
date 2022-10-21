@@ -6,10 +6,10 @@ import Toolbar from './Toolbar'
 
 export default function App() {
 
-  const [array, setArray] = useState(algos.createRandomArray(150));
+  const [array, setArray] = useState(algos.createRandomArray(100));
   const [currentSort, setSort] = useState('Quick Sort');
   const [sorting, setSorting] = useState(false);
-  const [length, setLength] = useState(150);
+  const [length, setLength] = useState(100);
   
   
   function handleStartSorting(e) {
